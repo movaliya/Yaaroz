@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53710F0F1FD1475200CA4675 /* profilePictDemo.png in Resources */ = {isa = PBXBuildFile; fileRef = 53710F0E1FD1475200CA4675 /* profilePictDemo.png */; };
+		53710F2E1FD18EFB00CA4675 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 53710F121FD18EFB00CA4675 /* Contents.json */; };
+		53710F2F1FD18EFB00CA4675 /* Icon-App-20x20@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53710F131FD18EFB00CA4675 /* Icon-App-20x20@1x.png */; };
+		53710F301FD18EFB00CA4675 /* Icon-App-20x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53710F141FD18EFB00CA4675 /* Icon-App-20x20@2x.png */; };
+		53710F311FD18EFB00CA4675 /* Icon-App-20x20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53710F151FD18EFB00CA4675 /* Icon-App-20x20@3x.png */; };
+		53710F321FD18EFB00CA4675 /* Icon-App-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53710F161FD18EFB00CA4675 /* Icon-App-29x29@1x.png */; };
+		53710F331FD18EFB00CA4675 /* Icon-App-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53710F171FD18EFB00CA4675 /* Icon-App-29x29@2x.png */; };
+		53710F341FD18EFB00CA4675 /* Icon-App-29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53710F181FD18EFB00CA4675 /* Icon-App-29x29@3x.png */; };
+		53710F351FD18EFB00CA4675 /* Icon-App-40x40@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53710F191FD18EFB00CA4675 /* Icon-App-40x40@1x.png */; };
+		53710F361FD18EFB00CA4675 /* Icon-App-40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53710F1A1FD18EFB00CA4675 /* Icon-App-40x40@2x.png */; };
+		53710F371FD18EFB00CA4675 /* Icon-App-40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53710F1B1FD18EFB00CA4675 /* Icon-App-40x40@3x.png */; };
+		53710F381FD18EFB00CA4675 /* Icon-App-57x57@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53710F1C1FD18EFB00CA4675 /* Icon-App-57x57@1x.png */; };
+		53710F391FD18EFB00CA4675 /* Icon-App-57x57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53710F1D1FD18EFB00CA4675 /* Icon-App-57x57@2x.png */; };
+		53710F3A1FD18EFB00CA4675 /* Icon-App-60x60@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53710F1E1FD18EFB00CA4675 /* Icon-App-60x60@1x.png */; };
+		53710F3B1FD18EFB00CA4675 /* Icon-App-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53710F1F1FD18EFB00CA4675 /* Icon-App-60x60@2x.png */; };
+		53710F3C1FD18EFB00CA4675 /* Icon-App-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53710F201FD18EFB00CA4675 /* Icon-App-60x60@3x.png */; };
+		53710F3D1FD18EFB00CA4675 /* Icon-App-72x72@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53710F211FD18EFB00CA4675 /* Icon-App-72x72@1x.png */; };
+		53710F3E1FD18EFB00CA4675 /* Icon-App-72x72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53710F221FD18EFB00CA4675 /* Icon-App-72x72@2x.png */; };
+		53710F3F1FD18EFB00CA4675 /* Icon-App-76x76@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53710F231FD18EFB00CA4675 /* Icon-App-76x76@1x.png */; };
+		53710F401FD18EFB00CA4675 /* Icon-App-76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53710F241FD18EFB00CA4675 /* Icon-App-76x76@2x.png */; };
+		53710F411FD18EFB00CA4675 /* Icon-App-76x76@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53710F251FD18EFB00CA4675 /* Icon-App-76x76@3x.png */; };
+		53710F421FD18EFB00CA4675 /* Icon-App-83.5x83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53710F261FD18EFB00CA4675 /* Icon-App-83.5x83.5@2x.png */; };
+		53710F431FD18EFB00CA4675 /* Icon-Small-50x50@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53710F271FD18EFB00CA4675 /* Icon-Small-50x50@1x.png */; };
+		53710F441FD18EFB00CA4675 /* Icon-Small-50x50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53710F281FD18EFB00CA4675 /* Icon-Small-50x50@2x.png */; };
+		53710F461FD18EFB00CA4675 /* iTunesArtwork@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53710F2A1FD18EFB00CA4675 /* iTunesArtwork@1x.png */; };
+		53710F471FD18EFB00CA4675 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53710F2B1FD18EFB00CA4675 /* iTunesArtwork@2x.png */; };
+		53710F481FD18EFB00CA4675 /* iTunesArtwork@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53710F2C1FD18EFB00CA4675 /* iTunesArtwork@3x.png */; };
+		53710F491FD18EFB00CA4675 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 53710F2D1FD18EFB00CA4675 /* README.md */; };
+		53710F4B1FD194B800CA4675 /* Invite_friends.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53710F4A1FD194B800CA4675 /* Invite_friends.jpg */; };
+		53ABE1201FC97FE20055847E /* WishlistVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 53ABE11F1FC97FE20055847E /* WishlistVC.m */; };
+		53ABE1231FC980820055847E /* ChatVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 53ABE1221FC980820055847E /* ChatVC.m */; };
+		53ABE1261FC981210055847E /* FilterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 53ABE1251FC981210055847E /* FilterVC.m */; };
+		53C346361FC7C2D100D2EBF3 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C346311FC7C2D000D2EBF3 /* RECommonFunctions.m */; };
+		53C346371FC7C2D100D2EBF3 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C346331FC7C2D100D2EBF3 /* UIViewController+RESideMenu.m */; };
+		53C346381FC7C2D100D2EBF3 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C346341FC7C2D100D2EBF3 /* RESideMenu.m */; };
+		53C3463B1FC7C2EE00D2EBF3 /* DEMORootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C346391FC7C2EE00D2EBF3 /* DEMORootViewController.m */; };
+		53C3463E1FC7C2FF00D2EBF3 /* DEMOLeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C3463D1FC7C2FE00D2EBF3 /* DEMOLeftMenuViewController.m */; };
+		53C346401FC7C36D00D2EBF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53C3463F1FC7C36D00D2EBF3 /* Main.storyboard */; };
+		53C346431FC825AF00D2EBF3 /* AddaroomVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C346421FC825AF00D2EBF3 /* AddaroomVC.m */; };
+		53C346461FC825CB00D2EBF3 /* MessagesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C346451FC825CB00D2EBF3 /* MessagesVC.m */; };
+		53C346491FC825E100D2EBF3 /* FaqVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C346481FC825E100D2EBF3 /* FaqVC.m */; };
+		53FAE1FB1FC1A40D00CF0C6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FAE1FA1FC1A40D00CF0C6D /* AppDelegate.m */; };
+		53FAE2031FC1A40E00CF0C6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53FAE2021FC1A40E00CF0C6D /* Assets.xcassets */; };
+		53FAE2091FC1A40E00CF0C6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FAE2081FC1A40E00CF0C6D /* main.m */; };
+		53FAE2111FC1A56600CF0C6D /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FAE2101FC1A56600CF0C6D /* HomeVC.m */; };
+		53FAE2141FC1A59600CF0C6D /* ProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FAE2131FC1A59600CF0C6D /* ProfileVC.m */; };
+		53FAE2171FC1A5B400CF0C6D /* InvitefriendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FAE2161FC1A5B400CF0C6D /* InvitefriendVC.m */; };
+		53FAE21A1FC1A5D100CF0C6D /* ContactusVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FAE2191FC1A5D100CF0C6D /* ContactusVC.m */; };
+		53FAE21E1FC1A61100CF0C6D /* ChatscreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FAE21D1FC1A61100CF0C6D /* ChatscreenVC.m */; };
+		53FAE2211FC1A63D00CF0C6D /* SettingsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FAE2201FC1A63D00CF0C6D /* SettingsVC.m */; };
+		AF4D9ECDC6210347B6FD3BA6 /* libPods-Yaaroz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 507980E85A71BF5988452C40 /* libPods-Yaaroz.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C87831C5389DD5D1B52D56A /* Pods-Yaaroz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yaaroz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yaaroz/Pods-Yaaroz.debug.xcconfig"; sourceTree = "<group>"; };
+		507980E85A71BF5988452C40 /* libPods-Yaaroz.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Yaaroz.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53710F0E1FD1475200CA4675 /* profilePictDemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profilePictDemo.png; sourceTree = "<group>"; };
+		53710F121FD18EFB00CA4675 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		53710F131FD18EFB00CA4675 /* Icon-App-20x20@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@1x.png"; sourceTree = "<group>"; };
+		53710F141FD18EFB00CA4675 /* Icon-App-20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@2x.png"; sourceTree = "<group>"; };
+		53710F151FD18EFB00CA4675 /* Icon-App-20x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@3x.png"; sourceTree = "<group>"; };
+		53710F161FD18EFB00CA4675 /* Icon-App-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@1x.png"; sourceTree = "<group>"; };
+		53710F171FD18EFB00CA4675 /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@2x.png"; sourceTree = "<group>"; };
+		53710F181FD18EFB00CA4675 /* Icon-App-29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@3x.png"; sourceTree = "<group>"; };
+		53710F191FD18EFB00CA4675 /* Icon-App-40x40@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@1x.png"; sourceTree = "<group>"; };
+		53710F1A1FD18EFB00CA4675 /* Icon-App-40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@2x.png"; sourceTree = "<group>"; };
+		53710F1B1FD18EFB00CA4675 /* Icon-App-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@3x.png"; sourceTree = "<group>"; };
+		53710F1C1FD18EFB00CA4675 /* Icon-App-57x57@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-57x57@1x.png"; sourceTree = "<group>"; };
+		53710F1D1FD18EFB00CA4675 /* Icon-App-57x57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-57x57@2x.png"; sourceTree = "<group>"; };
+		53710F1E1FD18EFB00CA4675 /* Icon-App-60x60@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@1x.png"; sourceTree = "<group>"; };
+		53710F1F1FD18EFB00CA4675 /* Icon-App-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@2x.png"; sourceTree = "<group>"; };
+		53710F201FD18EFB00CA4675 /* Icon-App-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@3x.png"; sourceTree = "<group>"; };
+		53710F211FD18EFB00CA4675 /* Icon-App-72x72@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-72x72@1x.png"; sourceTree = "<group>"; };
+		53710F221FD18EFB00CA4675 /* Icon-App-72x72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-72x72@2x.png"; sourceTree = "<group>"; };
+		53710F231FD18EFB00CA4675 /* Icon-App-76x76@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@1x.png"; sourceTree = "<group>"; };
+		53710F241FD18EFB00CA4675 /* Icon-App-76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@2x.png"; sourceTree = "<group>"; };
+		53710F251FD18EFB00CA4675 /* Icon-App-76x76@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@3x.png"; sourceTree = "<group>"; };
+		53710F261FD18EFB00CA4675 /* Icon-App-83.5x83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-83.5x83.5@2x.png"; sourceTree = "<group>"; };
+		53710F271FD18EFB00CA4675 /* Icon-Small-50x50@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50x50@1x.png"; sourceTree = "<group>"; };
+		53710F281FD18EFB00CA4675 /* Icon-Small-50x50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50x50@2x.png"; sourceTree = "<group>"; };
+		53710F2A1FD18EFB00CA4675 /* iTunesArtwork@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@1x.png"; sourceTree = "<group>"; };
+		53710F2B1FD18EFB00CA4675 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		53710F2C1FD18EFB00CA4675 /* iTunesArtwork@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@3x.png"; sourceTree = "<group>"; };
+		53710F2D1FD18EFB00CA4675 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		53710F4A1FD194B800CA4675 /* Invite_friends.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Invite_friends.jpg; sourceTree = "<group>"; };
+		53ABE11E1FC97FE10055847E /* WishlistVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WishlistVC.h; sourceTree = "<group>"; };
+		53ABE11F1FC97FE20055847E /* WishlistVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WishlistVC.m; sourceTree = "<group>"; };
+		53ABE1211FC980820055847E /* ChatVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatVC.h; sourceTree = "<group>"; };
+		53ABE1221FC980820055847E /* ChatVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatVC.m; sourceTree = "<group>"; };
+		53ABE1241FC981210055847E /* FilterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilterVC.h; sourceTree = "<group>"; };
+		53ABE1251FC981210055847E /* FilterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilterVC.m; sourceTree = "<group>"; };
+		53C3462D1FC7B18500D2EBF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		53C3462E1FC7B19200D2EBF3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		53C3462F1FC7B1A900D2EBF3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		53C346301FC7C2CF00D2EBF3 /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
+		53C346311FC7C2D000D2EBF3 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		53C346321FC7C2D000D2EBF3 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		53C346331FC7C2D100D2EBF3 /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
+		53C346341FC7C2D100D2EBF3 /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
+		53C346351FC7C2D100D2EBF3 /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
+		53C346391FC7C2EE00D2EBF3 /* DEMORootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMORootViewController.m; sourceTree = "<group>"; };
+		53C3463A1FC7C2EE00D2EBF3 /* DEMORootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMORootViewController.h; sourceTree = "<group>"; };
+		53C3463C1FC7C2FE00D2EBF3 /* DEMOLeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOLeftMenuViewController.h; sourceTree = "<group>"; };
+		53C3463D1FC7C2FE00D2EBF3 /* DEMOLeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOLeftMenuViewController.m; sourceTree = "<group>"; };
+		53C3463F1FC7C36D00D2EBF3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		53C346411FC825AF00D2EBF3 /* AddaroomVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddaroomVC.h; sourceTree = "<group>"; };
+		53C346421FC825AF00D2EBF3 /* AddaroomVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddaroomVC.m; sourceTree = "<group>"; };
+		53C346441FC825CB00D2EBF3 /* MessagesVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessagesVC.h; sourceTree = "<group>"; };
+		53C346451FC825CB00D2EBF3 /* MessagesVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessagesVC.m; sourceTree = "<group>"; };
+		53C346471FC825E100D2EBF3 /* FaqVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FaqVC.h; sourceTree = "<group>"; };
+		53C346481FC825E100D2EBF3 /* FaqVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaqVC.m; sourceTree = "<group>"; };
+		53FAE1F61FC1A40D00CF0C6D /* Yaaroz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yaaroz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53FAE1F91FC1A40D00CF0C6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		53FAE1FA1FC1A40D00CF0C6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		53FAE2021FC1A40E00CF0C6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53FAE2071FC1A40E00CF0C6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53FAE2081FC1A40E00CF0C6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53FAE20F1FC1A56600CF0C6D /* HomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		53FAE2101FC1A56600CF0C6D /* HomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		53FAE2121FC1A59600CF0C6D /* ProfileVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileVC.h; sourceTree = "<group>"; };
+		53FAE2131FC1A59600CF0C6D /* ProfileVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileVC.m; sourceTree = "<group>"; };
+		53FAE2151FC1A5B400CF0C6D /* InvitefriendVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InvitefriendVC.h; sourceTree = "<group>"; };
+		53FAE2161FC1A5B400CF0C6D /* InvitefriendVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InvitefriendVC.m; sourceTree = "<group>"; };
+		53FAE2181FC1A5D100CF0C6D /* ContactusVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactusVC.h; sourceTree = "<group>"; };
+		53FAE2191FC1A5D100CF0C6D /* ContactusVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactusVC.m; sourceTree = "<group>"; };
+		53FAE21C1FC1A61100CF0C6D /* ChatscreenVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatscreenVC.h; sourceTree = "<group>"; };
+		53FAE21D1FC1A61100CF0C6D /* ChatscreenVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatscreenVC.m; sourceTree = "<group>"; };
+		53FAE21F1FC1A63D00CF0C6D /* SettingsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsVC.h; sourceTree = "<group>"; };
+		53FAE2201FC1A63D00CF0C6D /* SettingsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsVC.m; sourceTree = "<group>"; };
+		6D3169E972A1DC4A215C19BA /* Pods-Yaaroz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yaaroz.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yaaroz/Pods-Yaaroz.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53FAE1F31FC1A40D00CF0C6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4D9ECDC6210347B6FD3BA6 /* libPods-Yaaroz.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53710F0B1FD1451900CA4675 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				53710F0E1FD1475200CA4675 /* profilePictDemo.png */,
+				53710F4A1FD194B800CA4675 /* Invite_friends.jpg */,
+			);
+			name = Images;
+			path = Yaaroz;
+			sourceTree = "<group>";
+		};
+		53710F101FD18EFB00CA4675 /* iosIcon */ = {
+			isa = PBXGroup;
+			children = (
+				53710F111FD18EFB00CA4675 /* AppIcon.appiconset */,
+				53710F2A1FD18EFB00CA4675 /* iTunesArtwork@1x.png */,
+				53710F2B1FD18EFB00CA4675 /* iTunesArtwork@2x.png */,
+				53710F2C1FD18EFB00CA4675 /* iTunesArtwork@3x.png */,
+				53710F2D1FD18EFB00CA4675 /* README.md */,
+			);
+			path = iosIcon;
+			sourceTree = "<group>";
+		};
+		53710F111FD18EFB00CA4675 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				53710F121FD18EFB00CA4675 /* Contents.json */,
+				53710F131FD18EFB00CA4675 /* Icon-App-20x20@1x.png */,
+				53710F141FD18EFB00CA4675 /* Icon-App-20x20@2x.png */,
+				53710F151FD18EFB00CA4675 /* Icon-App-20x20@3x.png */,
+				53710F161FD18EFB00CA4675 /* Icon-App-29x29@1x.png */,
+				53710F171FD18EFB00CA4675 /* Icon-App-29x29@2x.png */,
+				53710F181FD18EFB00CA4675 /* Icon-App-29x29@3x.png */,
+				53710F191FD18EFB00CA4675 /* Icon-App-40x40@1x.png */,
+				53710F1A1FD18EFB00CA4675 /* Icon-App-40x40@2x.png */,
+				53710F1B1FD18EFB00CA4675 /* Icon-App-40x40@3x.png */,
+				53710F1C1FD18EFB00CA4675 /* Icon-App-57x57@1x.png */,
+				53710F1D1FD18EFB00CA4675 /* Icon-App-57x57@2x.png */,
+				53710F1E1FD18EFB00CA4675 /* Icon-App-60x60@1x.png */,
+				53710F1F1FD18EFB00CA4675 /* Icon-App-60x60@2x.png */,
+				53710F201FD18EFB00CA4675 /* Icon-App-60x60@3x.png */,
+				53710F211FD18EFB00CA4675 /* Icon-App-72x72@1x.png */,
+				53710F221FD18EFB00CA4675 /* Icon-App-72x72@2x.png */,
+				53710F231FD18EFB00CA4675 /* Icon-App-76x76@1x.png */,
+				53710F241FD18EFB00CA4675 /* Icon-App-76x76@2x.png */,
+				53710F251FD18EFB00CA4675 /* Icon-App-76x76@3x.png */,
+				53710F261FD18EFB00CA4675 /* Icon-App-83.5x83.5@2x.png */,
+				53710F271FD18EFB00CA4675 /* Icon-Small-50x50@1x.png */,
+				53710F281FD18EFB00CA4675 /* Icon-Small-50x50@2x.png */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+		53F12DF426CB91A3A6512A28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C87831C5389DD5D1B52D56A /* Pods-Yaaroz.debug.xcconfig */,
+				6D3169E972A1DC4A215C19BA /* Pods-Yaaroz.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		53FAE1ED1FC1A40B00CF0C6D = {
+			isa = PBXGroup;
+			children = (
+				53FAE1F81FC1A40D00CF0C6D /* Yaaroz */,
+				53710F0B1FD1451900CA4675 /* Images */,
+				53FAE1F71FC1A40D00CF0C6D /* Products */,
+				53F12DF426CB91A3A6512A28 /* Pods */,
+				8958D0A9D4F919E557701DC2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		53FAE1F71FC1A40D00CF0C6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53FAE1F61FC1A40D00CF0C6D /* Yaaroz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53FAE1F81FC1A40D00CF0C6D /* Yaaroz */ = {
+			isa = PBXGroup;
+			children = (
+				53710F101FD18EFB00CA4675 /* iosIcon */,
+				53FAE21B1FC1A5E300CF0C6D /* Menu */,
+				53FAE1F91FC1A40D00CF0C6D /* AppDelegate.h */,
+				53FAE1FA1FC1A40D00CF0C6D /* AppDelegate.m */,
+				53FAE2021FC1A40E00CF0C6D /* Assets.xcassets */,
+				53C3463F1FC7C36D00D2EBF3 /* Main.storyboard */,
+				53FAE2071FC1A40E00CF0C6D /* Info.plist */,
+				53ABE1211FC980820055847E /* ChatVC.h */,
+				53ABE1221FC980820055847E /* ChatVC.m */,
+				53ABE1241FC981210055847E /* FilterVC.h */,
+				53ABE1251FC981210055847E /* FilterVC.m */,
+				53ABE11E1FC97FE10055847E /* WishlistVC.h */,
+				53ABE11F1FC97FE20055847E /* WishlistVC.m */,
+				53FAE2081FC1A40E00CF0C6D /* main.m */,
+				53FAE20F1FC1A56600CF0C6D /* HomeVC.h */,
+				53FAE2101FC1A56600CF0C6D /* HomeVC.m */,
+				53FAE2121FC1A59600CF0C6D /* ProfileVC.h */,
+				53FAE2131FC1A59600CF0C6D /* ProfileVC.m */,
+				53FAE2151FC1A5B400CF0C6D /* InvitefriendVC.h */,
+				53FAE2161FC1A5B400CF0C6D /* InvitefriendVC.m */,
+				53FAE2181FC1A5D100CF0C6D /* ContactusVC.h */,
+				53FAE2191FC1A5D100CF0C6D /* ContactusVC.m */,
+				53FAE21C1FC1A61100CF0C6D /* ChatscreenVC.h */,
+				53FAE21D1FC1A61100CF0C6D /* ChatscreenVC.m */,
+				53FAE21F1FC1A63D00CF0C6D /* SettingsVC.h */,
+				53FAE2201FC1A63D00CF0C6D /* SettingsVC.m */,
+				53C346411FC825AF00D2EBF3 /* AddaroomVC.h */,
+				53C346421FC825AF00D2EBF3 /* AddaroomVC.m */,
+				53C346441FC825CB00D2EBF3 /* MessagesVC.h */,
+				53C346451FC825CB00D2EBF3 /* MessagesVC.m */,
+				53C346471FC825E100D2EBF3 /* FaqVC.h */,
+				53C346481FC825E100D2EBF3 /* FaqVC.m */,
+			);
+			path = Yaaroz;
+			sourceTree = "<group>";
+		};
+		53FAE21B1FC1A5E300CF0C6D /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				53C346321FC7C2D000D2EBF3 /* RECommonFunctions.h */,
+				53C346311FC7C2D000D2EBF3 /* RECommonFunctions.m */,
+				53C346351FC7C2D100D2EBF3 /* RESideMenu.h */,
+				53C346341FC7C2D100D2EBF3 /* RESideMenu.m */,
+				53C346301FC7C2CF00D2EBF3 /* UIViewController+RESideMenu.h */,
+				53C346331FC7C2D100D2EBF3 /* UIViewController+RESideMenu.m */,
+				53C3463A1FC7C2EE00D2EBF3 /* DEMORootViewController.h */,
+				53C346391FC7C2EE00D2EBF3 /* DEMORootViewController.m */,
+				53C3463C1FC7C2FE00D2EBF3 /* DEMOLeftMenuViewController.h */,
+				53C3463D1FC7C2FE00D2EBF3 /* DEMOLeftMenuViewController.m */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		8958D0A9D4F919E557701DC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53C3462F1FC7B1A900D2EBF3 /* UIKit.framework */,
+				53C3462E1FC7B19200D2EBF3 /* CoreGraphics.framework */,
+				53C3462D1FC7B18500D2EBF3 /* Foundation.framework */,
+				507980E85A71BF5988452C40 /* libPods-Yaaroz.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53FAE1F51FC1A40D00CF0C6D /* Yaaroz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53FAE20C1FC1A40E00CF0C6D /* Build configuration list for PBXNativeTarget "Yaaroz" */;
+			buildPhases = (
+				F3BF84DA5C16EDD4576C4981 /* [CP] Check Pods Manifest.lock */,
+				53FAE1F21FC1A40D00CF0C6D /* Sources */,
+				53FAE1F31FC1A40D00CF0C6D /* Frameworks */,
+				53FAE1F41FC1A40D00CF0C6D /* Resources */,
+				26228CA2FB2C6F1CC6B4F604 /* [CP] Embed Pods Frameworks */,
+				F6E339F832E2AD6FA5AA14B9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yaaroz;
+			productName = Yaaroz;
+			productReference = 53FAE1F61FC1A40D00CF0C6D /* Yaaroz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53FAE1EE1FC1A40B00CF0C6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Vaishali Patel";
+				TargetAttributes = {
+					53FAE1F51FC1A40D00CF0C6D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 53FAE1F11FC1A40C00CF0C6D /* Build configuration list for PBXProject "Yaaroz" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53FAE1ED1FC1A40B00CF0C6D;
+			productRefGroup = 53FAE1F71FC1A40D00CF0C6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53FAE1F51FC1A40D00CF0C6D /* Yaaroz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53FAE1F41FC1A40D00CF0C6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53710F3D1FD18EFB00CA4675 /* Icon-App-72x72@1x.png in Resources */,
+				53710F0F1FD1475200CA4675 /* profilePictDemo.png in Resources */,
+				53710F4B1FD194B800CA4675 /* Invite_friends.jpg in Resources */,
+				53710F3F1FD18EFB00CA4675 /* Icon-App-76x76@1x.png in Resources */,
+				53C346401FC7C36D00D2EBF3 /* Main.storyboard in Resources */,
+				53710F391FD18EFB00CA4675 /* Icon-App-57x57@2x.png in Resources */,
+				53710F371FD18EFB00CA4675 /* Icon-App-40x40@3x.png in Resources */,
+				53710F311FD18EFB00CA4675 /* Icon-App-20x20@3x.png in Resources */,
+				53710F3B1FD18EFB00CA4675 /* Icon-App-60x60@2x.png in Resources */,
+				53710F321FD18EFB00CA4675 /* Icon-App-29x29@1x.png in Resources */,
+				53710F301FD18EFB00CA4675 /* Icon-App-20x20@2x.png in Resources */,
+				53710F461FD18EFB00CA4675 /* iTunesArtwork@1x.png in Resources */,
+				53710F351FD18EFB00CA4675 /* Icon-App-40x40@1x.png in Resources */,
+				53710F3C1FD18EFB00CA4675 /* Icon-App-60x60@3x.png in Resources */,
+				53710F361FD18EFB00CA4675 /* Icon-App-40x40@2x.png in Resources */,
+				53710F3E1FD18EFB00CA4675 /* Icon-App-72x72@2x.png in Resources */,
+				53710F3A1FD18EFB00CA4675 /* Icon-App-60x60@1x.png in Resources */,
+				53710F481FD18EFB00CA4675 /* iTunesArtwork@3x.png in Resources */,
+				53710F411FD18EFB00CA4675 /* Icon-App-76x76@3x.png in Resources */,
+				53710F341FD18EFB00CA4675 /* Icon-App-29x29@3x.png in Resources */,
+				53710F401FD18EFB00CA4675 /* Icon-App-76x76@2x.png in Resources */,
+				53710F471FD18EFB00CA4675 /* iTunesArtwork@2x.png in Resources */,
+				53710F441FD18EFB00CA4675 /* Icon-Small-50x50@2x.png in Resources */,
+				53FAE2031FC1A40E00CF0C6D /* Assets.xcassets in Resources */,
+				53710F431FD18EFB00CA4675 /* Icon-Small-50x50@1x.png in Resources */,
+				53710F2F1FD18EFB00CA4675 /* Icon-App-20x20@1x.png in Resources */,
+				53710F2E1FD18EFB00CA4675 /* Contents.json in Resources */,
+				53710F331FD18EFB00CA4675 /* Icon-App-29x29@2x.png in Resources */,
+				53710F421FD18EFB00CA4675 /* Icon-App-83.5x83.5@2x.png in Resources */,
+				53710F381FD18EFB00CA4675 /* Icon-App-57x57@1x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26228CA2FB2C6F1CC6B4F604 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yaaroz/Pods-Yaaroz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3BF84DA5C16EDD4576C4981 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yaaroz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6E339F832E2AD6FA5AA14B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yaaroz/Pods-Yaaroz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53FAE1F21FC1A40D00CF0C6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C346361FC7C2D100D2EBF3 /* RECommonFunctions.m in Sources */,
+				53FAE2171FC1A5B400CF0C6D /* InvitefriendVC.m in Sources */,
+				53710F491FD18EFB00CA4675 /* README.md in Sources */,
+				53ABE1201FC97FE20055847E /* WishlistVC.m in Sources */,
+				53C346431FC825AF00D2EBF3 /* AddaroomVC.m in Sources */,
+				53ABE1261FC981210055847E /* FilterVC.m in Sources */,
+				53FAE21E1FC1A61100CF0C6D /* ChatscreenVC.m in Sources */,
+				53C346381FC7C2D100D2EBF3 /* RESideMenu.m in Sources */,
+				53FAE2141FC1A59600CF0C6D /* ProfileVC.m in Sources */,
+				53C346491FC825E100D2EBF3 /* FaqVC.m in Sources */,
+				53FAE2111FC1A56600CF0C6D /* HomeVC.m in Sources */,
+				53C346461FC825CB00D2EBF3 /* MessagesVC.m in Sources */,
+				53C3463B1FC7C2EE00D2EBF3 /* DEMORootViewController.m in Sources */,
+				53FAE2211FC1A63D00CF0C6D /* SettingsVC.m in Sources */,
+				53ABE1231FC980820055847E /* ChatVC.m in Sources */,
+				53FAE21A1FC1A5D100CF0C6D /* ContactusVC.m in Sources */,
+				53FAE2091FC1A40E00CF0C6D /* main.m in Sources */,
+				53FAE1FB1FC1A40D00CF0C6D /* AppDelegate.m in Sources */,
+				53C346371FC7C2D100D2EBF3 /* UIViewController+RESideMenu.m in Sources */,
+				53C3463E1FC7C2FF00D2EBF3 /* DEMOLeftMenuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		53FAE20A1FC1A40E00CF0C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		53FAE20B1FC1A40E00CF0C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53FAE20D1FC1A40E00CF0C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C87831C5389DD5D1B52D56A /* Pods-Yaaroz.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Yaaroz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vaishali.Yaaroz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53FAE20E1FC1A40E00CF0C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D3169E972A1DC4A215C19BA /* Pods-Yaaroz.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Yaaroz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vaishali.Yaaroz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53FAE1F11FC1A40C00CF0C6D /* Build configuration list for PBXProject "Yaaroz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53FAE20A1FC1A40E00CF0C6D /* Debug */,
+				53FAE20B1FC1A40E00CF0C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53FAE20C1FC1A40E00CF0C6D /* Build configuration list for PBXNativeTarget "Yaaroz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53FAE20D1FC1A40E00CF0C6D /* Debug */,
+				53FAE20E1FC1A40E00CF0C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53FAE1EE1FC1A40B00CF0C6D /* Project object */;
+}
