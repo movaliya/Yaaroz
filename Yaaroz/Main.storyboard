@@ -251,15 +251,27 @@
                                     <constraint firstAttribute="height" constant="50" id="ZZK-UE-1v5"/>
                                 </constraints>
                             </stackView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="YC6-cB-D00">
+                                <rect key="frame" x="0.0" y="114" width="320" height="405"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="guV-rx-Uw1" id="JHl-of-gel"/>
+                                    <outlet property="delegate" destination="guV-rx-Uw1" id="XKC-hG-dIM"/>
+                                </connections>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="B3m-77-Rx8" secondAttribute="trailing" id="2Sr-XL-ihc"/>
                             <constraint firstAttribute="trailing" secondItem="DY5-Me-knq" secondAttribute="trailing" id="L8P-bH-bsX"/>
                             <constraint firstItem="B3m-77-Rx8" firstAttribute="leading" secondItem="BMQ-k5-1ih" secondAttribute="leading" id="RyI-eb-iqI"/>
+                            <constraint firstAttribute="trailing" secondItem="YC6-cB-D00" secondAttribute="trailing" id="Xnv-jw-s8O"/>
                             <constraint firstItem="B3m-77-Rx8" firstAttribute="top" secondItem="BMQ-k5-1ih" secondAttribute="top" id="d1X-vS-Y5S"/>
                             <constraint firstItem="DY5-Me-knq" firstAttribute="top" secondItem="B3m-77-Rx8" secondAttribute="bottom" id="gmH-KD-d1k"/>
+                            <constraint firstItem="qef-8U-peg" firstAttribute="top" secondItem="YC6-cB-D00" secondAttribute="bottom" id="kiI-vU-mhI"/>
+                            <constraint firstItem="YC6-cB-D00" firstAttribute="leading" secondItem="BMQ-k5-1ih" secondAttribute="leading" id="kxd-0p-ao4"/>
                             <constraint firstItem="DY5-Me-knq" firstAttribute="leading" secondItem="BMQ-k5-1ih" secondAttribute="leading" id="one-wo-Bji"/>
+                            <constraint firstItem="YC6-cB-D00" firstAttribute="top" secondItem="DY5-Me-knq" secondAttribute="bottom" id="x7i-qn-Mxb"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="z29-vL-A1p"/>
@@ -268,6 +280,7 @@
                         <outlet property="Explore_BTN" destination="EmQ-f0-Ubq" id="p7P-vu-1y1"/>
                         <outlet property="FindRoomLine_LBL" destination="DQ3-N4-6cn" id="ydN-MM-rXr"/>
                         <outlet property="FindaRoom_BTN" destination="ij3-oM-lTg" id="hcb-OS-7e6"/>
+                        <outlet property="MainTBL" destination="YC6-cB-D00" id="rkv-WJ-FLa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="liW-0j-biS" userLabel="First Responder" sceneMemberID="firstResponder"/>

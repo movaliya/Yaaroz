@@ -362,12 +362,12 @@
 		B176E9381FD3F2F8007CED08 /* HomeExploreCell */ = {
 			isa = PBXGroup;
 			children = (
-				B176E9391FD3F2F8007CED08 /* BestPartnerCell.h */,
-				B176E93A1FD3F2F8007CED08 /* BestPartnerCell.m */,
-				B176E93B1FD3F2F8007CED08 /* BestPartnerCell.xib */,
 				B176E93C1FD3F2F8007CED08 /* ExploreTBLCell.h */,
 				B176E93D1FD3F2F8007CED08 /* ExploreTBLCell.m */,
 				B176E93E1FD3F2F8007CED08 /* ExploreTBLCell.xib */,
+				B176E9391FD3F2F8007CED08 /* BestPartnerCell.h */,
+				B176E93A1FD3F2F8007CED08 /* BestPartnerCell.m */,
+				B176E93B1FD3F2F8007CED08 /* BestPartnerCell.xib */,
 				B176E93F1FD3F2F8007CED08 /* HotLocationCell.h */,
 				B176E9401FD3F2F8007CED08 /* HotLocationCell.m */,
 				B176E9411FD3F2F8007CED08 /* HotLocationCell.xib */,

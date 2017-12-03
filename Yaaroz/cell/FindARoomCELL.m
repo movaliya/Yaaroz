@@ -10,7 +10,9 @@
 
 @implementation FindARoomCELL
 @synthesize ProfileImageView,Price_LBL,Like_BTN,WatchList_BTN,description,title_LBL;
-- (void)awakeFromNib {
+
+- (void)awakeFromNib
+{
     [super awakeFromNib];
     // Initialization code
     ProfileImageView.layer.cornerRadius = ProfileImageView.frame.size.width / 2;

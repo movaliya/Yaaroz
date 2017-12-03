@@ -21,4 +21,5 @@
 @property (strong, nonatomic) IBOutlet UILabel *FindRoomLine_LBL;
 
 - (IBAction)Tab_click:(id)sender;
+@property (strong, nonatomic) IBOutlet UITableView *MainTBL;
 @end
