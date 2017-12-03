@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16G1036" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -24,12 +24,12 @@
                         </constraints>
                     </imageView>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="85Z-Hv-Szq">
-                        <rect key="frame" x="224" y="0.0" width="31" height="30"/>
+                        <rect key="frame" x="224" y="5" width="31" height="30"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="30" id="hO2-FP-eJo"/>
                             <constraint firstAttribute="width" constant="31" id="lZq-wr-L7q"/>
                         </constraints>
-                        <state key="normal" image="ic_wishlist"/>
+                        <state key="normal" image="ic_yellowWatchlist"/>
                     </button>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vatrapur" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GiX-p7-fiH">
                         <rect key="frame" x="5" y="130" width="250" height="42"/>
@@ -41,7 +41,7 @@
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="GiX-p7-fiH" secondAttribute="bottom" id="JQe-Oe-ijf"/>
                 <constraint firstItem="ukD-nq-LPl" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="NZc-Uw-Cpf"/>
-                <constraint firstItem="85Z-Hv-Szq" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="VDG-qE-9Wq"/>
+                <constraint firstItem="85Z-Hv-Szq" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="VDG-qE-9Wq"/>
                 <constraint firstAttribute="trailing" secondItem="85Z-Hv-Szq" secondAttribute="trailing" id="gbT-hB-gD7"/>
                 <constraint firstAttribute="trailing" secondItem="ukD-nq-LPl" secondAttribute="trailing" id="hjM-Xy-LEg"/>
                 <constraint firstItem="GiX-p7-fiH" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="iDG-08-cNF"/>
@@ -55,6 +55,6 @@
     </objects>
     <resources>
         <image name="hotLocationImage.png" width="845" height="434"/>
-        <image name="ic_wishlist" width="26" height="25"/>
+        <image name="ic_yellowWatchlist" width="25" height="23"/>
     </resources>
 </document>

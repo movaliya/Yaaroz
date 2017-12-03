@@ -268,11 +268,11 @@
         }
         if (collectionView.tag==1)
         {
-            return CGSizeMake(self.view.frame.size.width/3, 150.0f);
+            return CGSizeMake(self.view.frame.size.width/2, 140);
         }
         else if (collectionView.tag==2)
         {
-            return CGSizeMake(self.view.frame.size.width/2.6, 220.0f);
+            return CGSizeMake(self.view.frame.size.width/2.8, 150.0f);
         }
         return CGSizeMake(self.view.frame.size.width/2.6, 285.0f);
     }

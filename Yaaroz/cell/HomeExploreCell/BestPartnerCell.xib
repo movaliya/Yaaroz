@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16G1036" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -24,15 +24,15 @@
                         </constraints>
                     </imageView>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S5H-RG-adk">
-                        <rect key="frame" x="111" y="0.0" width="30" height="30"/>
+                        <rect key="frame" x="111" y="5" width="30" height="30"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="30" id="abR-ds-GAQ"/>
                             <constraint firstAttribute="height" constant="30" id="pvj-8f-kJv"/>
                         </constraints>
-                        <state key="normal" image="ic_wishlist"/>
+                        <state key="normal" image="ic_yellowWatchlist"/>
                     </button>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Simmy" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4EG-Wl-Ad0">
-                        <rect key="frame" x="5" y="155.5" width="93" height="18"/>
+                        <rect key="frame" x="5" y="156" width="93" height="18"/>
                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                         <nil key="highlightedColor"/>
                     </label>
@@ -56,7 +56,7 @@
                 <constraint firstItem="4EG-Wl-Ad0" firstAttribute="centerY" secondItem="vdp-RJ-xUJ" secondAttribute="centerY" id="OYn-Zj-rf8"/>
                 <constraint firstItem="vdp-RJ-xUJ" firstAttribute="top" secondItem="vlU-fo-rUw" secondAttribute="bottom" constant="5" id="ShQ-eh-aql"/>
                 <constraint firstItem="vlU-fo-rUw" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="i7n-gt-br4"/>
-                <constraint firstItem="S5H-RG-adk" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="qXX-JF-HOu"/>
+                <constraint firstItem="S5H-RG-adk" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="qXX-JF-HOu"/>
             </constraints>
             <size key="customSize" width="141" height="181"/>
             <point key="canvasLocation" x="-246.5" y="-33.5"/>
@@ -65,6 +65,6 @@
     <resources>
         <image name="bestPartner.png" width="1099" height="1143"/>
         <image name="ic_messages" width="26" height="25"/>
-        <image name="ic_wishlist" width="26" height="25"/>
+        <image name="ic_yellowWatchlist" width="25" height="23"/>
     </resources>
 </document>
