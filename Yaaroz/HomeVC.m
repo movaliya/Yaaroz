@@ -28,6 +28,8 @@
     [super viewDidLoad];
     TabStr=@"Explore";
     
+    MainTBL.backgroundColor=[UIColor colorWithRed:246.0f/255.0f green:246.0f/255.0f blue:246.0f/255.0f alpha:1.0f];
+    
     HeaderArr=[[NSMutableArray alloc]initWithObjects:@"QUICK AVAILABLE",@"HOT LOCATION",@"BEST PARTNER",@"FUTERED ROOM",@"LOCAL TASTE",@"MOST VIEWD", nil];
     
     UINib *nib = [UINib nibWithNibName:@"FindARoomCELL" bundle:nil];
@@ -100,12 +102,12 @@
         {
             cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
         }
+        cell.backgroundColor=[UIColor colorWithRed:246.0f/255.0f green:246.0f/255.0f blue:246.0f/255.0f alpha:1.0f];
         return cell;
     }
     else
     {
         static NSString *CellIdentifier = @"ExploreTBLCell";
-        
         ExploreTBLCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
         cell=nil;
         if (cell == nil)
@@ -123,7 +125,6 @@
         else if (indexPath.section==1)
         {
             cell.GrayArrow.hidden=YES;
-            cell.SeeAll_BTN.hidden=YES;
             nib2 = [UINib nibWithNibName:@"HotLocationCell" bundle:nil];
             [cell.ExploreCollectionview registerNib:nib2 forCellWithReuseIdentifier:@"HotLocationCell"];
             cell.ExploreCollectionview.tag=1;
@@ -149,6 +150,7 @@
         cell.SeeAll_BTN.tag=indexPath.section;
         cell.selectionStyle=UITableViewCellSelectionStyleNone;
         [cell.ExploreCollectionview reloadData];
+        cell.backgroundColor=[UIColor colorWithRed:246.0f/255.0f green:246.0f/255.0f blue:246.0f/255.0f alpha:1.0f];
         return cell;
     }
     return nil;
@@ -167,11 +169,11 @@
         }
         else if (indexPath.section==1)
         {
-            return 172;
+            return 170;
         }
         else if (indexPath.section==2)
         {
-            return 181;
+            return 220;
         }
     }
     return 0.0f;
@@ -181,7 +183,7 @@
 {
     if ([TabStr isEqualToString:@"Find A Room"])
     {
-        return 0.1f;
+        return 10.0f;
     }
     return 10.; // you can have your own choice, of course
 }
@@ -268,11 +270,11 @@
         }
         if (collectionView.tag==1)
         {
-            return CGSizeMake(self.view.frame.size.width/2, 140);
+            return CGSizeMake(self.view.frame.size.width/2.5, 140);
         }
         else if (collectionView.tag==2)
         {
-            return CGSizeMake(self.view.frame.size.width/2.8, 150.0f);
+            return CGSizeMake(self.view.frame.size.width/2.8, 180.0f);
         }
         return CGSizeMake(self.view.frame.size.width/2.6, 285.0f);
     }

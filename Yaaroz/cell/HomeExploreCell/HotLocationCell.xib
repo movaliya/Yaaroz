@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16G1036" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -17,11 +17,8 @@
                 <rect key="frame" x="0.0" y="0.0" width="255" height="172"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hotLocationImage.png" translatesAutoresizingMaskIntoConstraints="NO" id="ukD-nq-LPl">
-                        <rect key="frame" x="0.0" y="0.0" width="255" height="130"/>
-                        <constraints>
-                            <constraint firstAttribute="height" constant="130" id="66u-Wg-vhb"/>
-                        </constraints>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="hotLocationImage.png" translatesAutoresizingMaskIntoConstraints="NO" id="ukD-nq-LPl">
+                        <rect key="frame" x="0.0" y="0.0" width="255" height="141.5"/>
                     </imageView>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="85Z-Hv-Szq">
                         <rect key="frame" x="224" y="5" width="31" height="30"/>
@@ -32,20 +29,21 @@
                         <state key="normal" image="ic_yellowWatchlist"/>
                     </button>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vatrapur" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GiX-p7-fiH">
-                        <rect key="frame" x="5" y="130" width="250" height="42"/>
+                        <rect key="frame" x="5" y="146.5" width="250" height="20.5"/>
                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
             </view>
+            <color key="backgroundColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstAttribute="bottom" secondItem="GiX-p7-fiH" secondAttribute="bottom" id="JQe-Oe-ijf"/>
+                <constraint firstAttribute="bottom" secondItem="GiX-p7-fiH" secondAttribute="bottom" constant="5" id="JQe-Oe-ijf"/>
                 <constraint firstItem="ukD-nq-LPl" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="NZc-Uw-Cpf"/>
                 <constraint firstItem="85Z-Hv-Szq" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="VDG-qE-9Wq"/>
+                <constraint firstItem="GiX-p7-fiH" firstAttribute="top" secondItem="ukD-nq-LPl" secondAttribute="bottom" constant="5" id="Vjx-zo-QCI"/>
                 <constraint firstAttribute="trailing" secondItem="85Z-Hv-Szq" secondAttribute="trailing" id="gbT-hB-gD7"/>
                 <constraint firstAttribute="trailing" secondItem="ukD-nq-LPl" secondAttribute="trailing" id="hjM-Xy-LEg"/>
                 <constraint firstItem="GiX-p7-fiH" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="iDG-08-cNF"/>
-                <constraint firstItem="GiX-p7-fiH" firstAttribute="top" secondItem="ukD-nq-LPl" secondAttribute="bottom" id="ii0-UE-Tmt"/>
                 <constraint firstAttribute="trailing" secondItem="GiX-p7-fiH" secondAttribute="trailing" id="jfb-BJ-Sfz"/>
                 <constraint firstItem="ukD-nq-LPl" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="vYI-KG-gA1"/>
             </constraints>

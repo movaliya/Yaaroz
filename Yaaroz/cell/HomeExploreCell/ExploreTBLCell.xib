@@ -19,7 +19,7 @@
                 <subviews>
                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="HVv-Q0-QMF">
                         <rect key="frame" x="5" y="33" width="315" height="86"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="cQT-AB-U21">
                             <size key="itemSize" width="80" height="89"/>
                             <size key="headerReferenceSize" width="10" height="10"/>
@@ -72,6 +72,7 @@
                     <constraint firstItem="aOw-2J-5xq" firstAttribute="centerY" secondItem="iIy-Ru-sNf" secondAttribute="centerY" id="xBh-Kf-Yxm"/>
                 </constraints>
             </tableViewCellContentView>
+            <color key="backgroundColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <connections>
                 <outlet property="ExploreCollectionview" destination="HVv-Q0-QMF" id="C6k-yX-43t"/>
                 <outlet property="GrayArrow" destination="aOw-2J-5xq" id="qZa-Cl-LHy"/>

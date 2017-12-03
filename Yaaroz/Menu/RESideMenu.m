@@ -30,6 +30,7 @@
 #import "Yaaroz.pch"
 #import "HomeVC.h"
 #import "InvitefriendVC.h"
+#import "ProfileVC.h"
 
 
 @interface RESideMenu ()<UITabBarDelegate,UITabBarControllerDelegate>
@@ -762,10 +763,25 @@
         return;
     }
 
-    
-    
     UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle: nil];
-    if ([contentViewController isKindOfClass:[InvitefriendVC class]])
+    if ([contentViewController isKindOfClass:[ProfileVC class]])
+    {
+        if ([_contentViewController isKindOfClass:[UITabBarController class]])
+        {
+            UITabBarController *tabBarController = (UITabBarController *)_contentViewController;
+            tabBarController.delegate=self;
+            UINavigationController *navigationController = (UINavigationController *)tabBarController.selectedViewController;
+            
+            UIViewController *vc ;
+            NSArray *controllers;
+            
+            vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"ProfileVC"];
+            controllers = [NSArray arrayWithObject:vc];
+            navigationController.viewControllers = controllers;
+            
+        }
+    }
+    else if ([contentViewController isKindOfClass:[InvitefriendVC class]])
     {
         if ([_contentViewController isKindOfClass:[UITabBarController class]])
         {
@@ -784,7 +800,6 @@
     }
     else
     {
-        
     }
     
 }

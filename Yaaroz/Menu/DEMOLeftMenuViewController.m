@@ -62,8 +62,7 @@
     switch (indexPath.row)
     {
         case 0:
-            [self.sideMenuViewController setContentViewController:[[UINavigationController alloc] initWithRootViewController:[self.storyboard instantiateViewControllerWithIdentifier:@"ProfileVC"]]
-                                                         animated:YES];
+            [self.sideMenuViewController setContentViewController:[[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"ProfileVC"]];
             [self.sideMenuViewController hideMenuViewController];
             break;
         case 1:
