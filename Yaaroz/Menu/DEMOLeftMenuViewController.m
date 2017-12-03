@@ -9,6 +9,8 @@
 #import "DEMOLeftMenuViewController.h"
 #import "HomeVC.h"
 #import "UIViewController+RESideMenu.h"
+#import "Yaaroz.pch"
+
 
 @interface DEMOLeftMenuViewController ()
 
@@ -57,7 +59,8 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    switch (indexPath.row) {
+    switch (indexPath.row)
+    {
         case 0:
             [self.sideMenuViewController setContentViewController:[[UINavigationController alloc] initWithRootViewController:[self.storyboard instantiateViewControllerWithIdentifier:@"ProfileVC"]]
                                                          animated:YES];
@@ -79,14 +82,17 @@
             [self.sideMenuViewController hideMenuViewController];
             break;
         case 4:
-            [self.sideMenuViewController setContentViewController:[[UINavigationController alloc] initWithRootViewController:[self.storyboard instantiateViewControllerWithIdentifier:@"InvitefriendVC"]]
-                                                         animated:YES];
+            [self.sideMenuViewController setContentViewController:[[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"InvitefriendVC"]];
             [self.sideMenuViewController hideMenuViewController];
             break;
         default:
             break;
     }
 }
+
+
+
+
 
 #pragma mark -
 #pragma mark UITableView Datasource

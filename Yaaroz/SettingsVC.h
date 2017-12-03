@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RESideMenu.h"
+
 
 @interface SettingsVC : UIViewController
+@property (weak, nonatomic) IBOutlet UIImageView *everyone_imge;
+@property (weak, nonatomic) IBOutlet UIImageView *onlyMutual_Image;
+@property (weak, nonatomic) IBOutlet UIImageView *cutomradio_Image;
+@property (weak, nonatomic) IBOutlet UIImageView *allMatch_Image;
+@property (weak, nonatomic) IBOutlet UIImageView *OnlyMatch_Image;
 
 @end

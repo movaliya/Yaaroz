@@ -58,6 +58,22 @@
 		53FAE21E1FC1A61100CF0C6D /* ChatscreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FAE21D1FC1A61100CF0C6D /* ChatscreenVC.m */; };
 		53FAE2211FC1A63D00CF0C6D /* SettingsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FAE2201FC1A63D00CF0C6D /* SettingsVC.m */; };
 		AF4D9ECDC6210347B6FD3BA6 /* libPods-Yaaroz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 507980E85A71BF5988452C40 /* libPods-Yaaroz.a */; };
+		B14AFC871FD27C6300A42FE6 /* TabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B14AFC861FD27C6300A42FE6 /* TabbarController.m */; };
+		B176E92F1FD3CED8007CED08 /* FindARoomCELL.m in Sources */ = {isa = PBXBuildFile; fileRef = B176E92D1FD3CED8007CED08 /* FindARoomCELL.m */; };
+		B176E9301FD3CED8007CED08 /* FindARoomCELL.xib in Resources */ = {isa = PBXBuildFile; fileRef = B176E92E1FD3CED8007CED08 /* FindARoomCELL.xib */; };
+		B176E9331FD3CF30007CED08 /* FindRoomVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B176E9321FD3CF30007CED08 /* FindRoomVC.m */; };
+		B176E9361FD3D36D007CED08 /* RoomImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B176E9341FD3D36D007CED08 /* RoomImage.jpg */; };
+		B176E9371FD3D36D007CED08 /* titleLOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = B176E9351FD3D36D007CED08 /* titleLOGO.png */; };
+		B176E9451FD3F2F8007CED08 /* BestPartnerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B176E93A1FD3F2F8007CED08 /* BestPartnerCell.m */; };
+		B176E9461FD3F2F8007CED08 /* BestPartnerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B176E93B1FD3F2F8007CED08 /* BestPartnerCell.xib */; };
+		B176E9471FD3F2F8007CED08 /* ExploreTBLCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B176E93D1FD3F2F8007CED08 /* ExploreTBLCell.m */; };
+		B176E9481FD3F2F8007CED08 /* ExploreTBLCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B176E93E1FD3F2F8007CED08 /* ExploreTBLCell.xib */; };
+		B176E9491FD3F2F8007CED08 /* HotLocationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B176E9401FD3F2F8007CED08 /* HotLocationCell.m */; };
+		B176E94A1FD3F2F8007CED08 /* HotLocationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B176E9411FD3F2F8007CED08 /* HotLocationCell.xib */; };
+		B176E94B1FD3F2F8007CED08 /* QuickAvailbleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B176E9431FD3F2F8007CED08 /* QuickAvailbleCell.m */; };
+		B176E94C1FD3F2F8007CED08 /* QuickAvailbleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B176E9441FD3F2F8007CED08 /* QuickAvailbleCell.xib */; };
+		B176E94F1FD3F308007CED08 /* bestPartner.png in Resources */ = {isa = PBXBuildFile; fileRef = B176E94D1FD3F308007CED08 /* bestPartner.png */; };
+		B176E9501FD3F308007CED08 /* hotLocationImage.png in Resources */ = {isa = PBXBuildFile; fileRef = B176E94E1FD3F308007CED08 /* hotLocationImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -137,6 +153,30 @@
 		53FAE21F1FC1A63D00CF0C6D /* SettingsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsVC.h; sourceTree = "<group>"; };
 		53FAE2201FC1A63D00CF0C6D /* SettingsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsVC.m; sourceTree = "<group>"; };
 		6D3169E972A1DC4A215C19BA /* Pods-Yaaroz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yaaroz.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yaaroz/Pods-Yaaroz.release.xcconfig"; sourceTree = "<group>"; };
+		B14AFC851FD27C6300A42FE6 /* TabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarController.h; sourceTree = "<group>"; };
+		B14AFC861FD27C6300A42FE6 /* TabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarController.m; sourceTree = "<group>"; };
+		B14AFC881FD2941A00A42FE6 /* Yaaroz.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yaaroz.pch; sourceTree = "<group>"; };
+		B176E92C1FD3CED8007CED08 /* FindARoomCELL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindARoomCELL.h; sourceTree = "<group>"; };
+		B176E92D1FD3CED8007CED08 /* FindARoomCELL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindARoomCELL.m; sourceTree = "<group>"; };
+		B176E92E1FD3CED8007CED08 /* FindARoomCELL.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FindARoomCELL.xib; sourceTree = "<group>"; };
+		B176E9311FD3CF30007CED08 /* FindRoomVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindRoomVC.h; sourceTree = "<group>"; };
+		B176E9321FD3CF30007CED08 /* FindRoomVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindRoomVC.m; sourceTree = "<group>"; };
+		B176E9341FD3D36D007CED08 /* RoomImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RoomImage.jpg; sourceTree = "<group>"; };
+		B176E9351FD3D36D007CED08 /* titleLOGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titleLOGO.png; sourceTree = "<group>"; };
+		B176E9391FD3F2F8007CED08 /* BestPartnerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestPartnerCell.h; sourceTree = "<group>"; };
+		B176E93A1FD3F2F8007CED08 /* BestPartnerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestPartnerCell.m; sourceTree = "<group>"; };
+		B176E93B1FD3F2F8007CED08 /* BestPartnerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BestPartnerCell.xib; sourceTree = "<group>"; };
+		B176E93C1FD3F2F8007CED08 /* ExploreTBLCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExploreTBLCell.h; sourceTree = "<group>"; };
+		B176E93D1FD3F2F8007CED08 /* ExploreTBLCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExploreTBLCell.m; sourceTree = "<group>"; };
+		B176E93E1FD3F2F8007CED08 /* ExploreTBLCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExploreTBLCell.xib; sourceTree = "<group>"; };
+		B176E93F1FD3F2F8007CED08 /* HotLocationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotLocationCell.h; sourceTree = "<group>"; };
+		B176E9401FD3F2F8007CED08 /* HotLocationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotLocationCell.m; sourceTree = "<group>"; };
+		B176E9411FD3F2F8007CED08 /* HotLocationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HotLocationCell.xib; sourceTree = "<group>"; };
+		B176E9421FD3F2F8007CED08 /* QuickAvailbleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickAvailbleCell.h; sourceTree = "<group>"; };
+		B176E9431FD3F2F8007CED08 /* QuickAvailbleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickAvailbleCell.m; sourceTree = "<group>"; };
+		B176E9441FD3F2F8007CED08 /* QuickAvailbleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuickAvailbleCell.xib; sourceTree = "<group>"; };
+		B176E94D1FD3F308007CED08 /* bestPartner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bestPartner.png; sourceTree = "<group>"; };
+		B176E94E1FD3F308007CED08 /* hotLocationImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hotLocationImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +194,10 @@
 		53710F0B1FD1451900CA4675 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				B176E94D1FD3F308007CED08 /* bestPartner.png */,
+				B176E94E1FD3F308007CED08 /* hotLocationImage.png */,
+				B176E9341FD3D36D007CED08 /* RoomImage.jpg */,
+				B176E9351FD3D36D007CED08 /* titleLOGO.png */,
 				53710F0E1FD1475200CA4675 /* profilePictDemo.png */,
 				53710F4A1FD194B800CA4675 /* Invite_friends.jpg */,
 			);
@@ -215,6 +259,7 @@
 		53FAE1ED1FC1A40B00CF0C6D = {
 			isa = PBXGroup;
 			children = (
+				B14AFC881FD2941A00A42FE6 /* Yaaroz.pch */,
 				53FAE1F81FC1A40D00CF0C6D /* Yaaroz */,
 				53710F0B1FD1451900CA4675 /* Images */,
 				53FAE1F71FC1A40D00CF0C6D /* Products */,
@@ -238,9 +283,12 @@
 				53FAE21B1FC1A5E300CF0C6D /* Menu */,
 				53FAE1F91FC1A40D00CF0C6D /* AppDelegate.h */,
 				53FAE1FA1FC1A40D00CF0C6D /* AppDelegate.m */,
+				B14AFC851FD27C6300A42FE6 /* TabbarController.h */,
+				B14AFC861FD27C6300A42FE6 /* TabbarController.m */,
 				53FAE2021FC1A40E00CF0C6D /* Assets.xcassets */,
 				53C3463F1FC7C36D00D2EBF3 /* Main.storyboard */,
 				53FAE2071FC1A40E00CF0C6D /* Info.plist */,
+				B176E92B1FD3CED8007CED08 /* cell */,
 				53ABE1211FC980820055847E /* ChatVC.h */,
 				53ABE1221FC980820055847E /* ChatVC.m */,
 				53ABE1241FC981210055847E /* FilterVC.h */,
@@ -258,6 +306,8 @@
 				53FAE2191FC1A5D100CF0C6D /* ContactusVC.m */,
 				53FAE21C1FC1A61100CF0C6D /* ChatscreenVC.h */,
 				53FAE21D1FC1A61100CF0C6D /* ChatscreenVC.m */,
+				B176E9311FD3CF30007CED08 /* FindRoomVC.h */,
+				B176E9321FD3CF30007CED08 /* FindRoomVC.m */,
 				53FAE21F1FC1A63D00CF0C6D /* SettingsVC.h */,
 				53FAE2201FC1A63D00CF0C6D /* SettingsVC.m */,
 				53C346411FC825AF00D2EBF3 /* AddaroomVC.h */,
@@ -296,6 +346,36 @@
 				507980E85A71BF5988452C40 /* libPods-Yaaroz.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B176E92B1FD3CED8007CED08 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				B176E92C1FD3CED8007CED08 /* FindARoomCELL.h */,
+				B176E92D1FD3CED8007CED08 /* FindARoomCELL.m */,
+				B176E92E1FD3CED8007CED08 /* FindARoomCELL.xib */,
+				B176E9381FD3F2F8007CED08 /* HomeExploreCell */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		B176E9381FD3F2F8007CED08 /* HomeExploreCell */ = {
+			isa = PBXGroup;
+			children = (
+				B176E9391FD3F2F8007CED08 /* BestPartnerCell.h */,
+				B176E93A1FD3F2F8007CED08 /* BestPartnerCell.m */,
+				B176E93B1FD3F2F8007CED08 /* BestPartnerCell.xib */,
+				B176E93C1FD3F2F8007CED08 /* ExploreTBLCell.h */,
+				B176E93D1FD3F2F8007CED08 /* ExploreTBLCell.m */,
+				B176E93E1FD3F2F8007CED08 /* ExploreTBLCell.xib */,
+				B176E93F1FD3F2F8007CED08 /* HotLocationCell.h */,
+				B176E9401FD3F2F8007CED08 /* HotLocationCell.m */,
+				B176E9411FD3F2F8007CED08 /* HotLocationCell.xib */,
+				B176E9421FD3F2F8007CED08 /* QuickAvailbleCell.h */,
+				B176E9431FD3F2F8007CED08 /* QuickAvailbleCell.m */,
+				B176E9441FD3F2F8007CED08 /* QuickAvailbleCell.xib */,
+			);
+			path = HomeExploreCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -359,6 +439,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B176E9461FD3F2F8007CED08 /* BestPartnerCell.xib in Resources */,
+				B176E94C1FD3F2F8007CED08 /* QuickAvailbleCell.xib in Resources */,
+				B176E9481FD3F2F8007CED08 /* ExploreTBLCell.xib in Resources */,
 				53710F3D1FD18EFB00CA4675 /* Icon-App-72x72@1x.png in Resources */,
 				53710F0F1FD1475200CA4675 /* profilePictDemo.png in Resources */,
 				53710F4B1FD194B800CA4675 /* Invite_friends.jpg in Resources */,
@@ -369,10 +452,13 @@
 				53710F311FD18EFB00CA4675 /* Icon-App-20x20@3x.png in Resources */,
 				53710F3B1FD18EFB00CA4675 /* Icon-App-60x60@2x.png in Resources */,
 				53710F321FD18EFB00CA4675 /* Icon-App-29x29@1x.png in Resources */,
+				B176E94A1FD3F2F8007CED08 /* HotLocationCell.xib in Resources */,
 				53710F301FD18EFB00CA4675 /* Icon-App-20x20@2x.png in Resources */,
 				53710F461FD18EFB00CA4675 /* iTunesArtwork@1x.png in Resources */,
+				B176E9301FD3CED8007CED08 /* FindARoomCELL.xib in Resources */,
 				53710F351FD18EFB00CA4675 /* Icon-App-40x40@1x.png in Resources */,
 				53710F3C1FD18EFB00CA4675 /* Icon-App-60x60@3x.png in Resources */,
+				B176E9501FD3F308007CED08 /* hotLocationImage.png in Resources */,
 				53710F361FD18EFB00CA4675 /* Icon-App-40x40@2x.png in Resources */,
 				53710F3E1FD18EFB00CA4675 /* Icon-App-72x72@2x.png in Resources */,
 				53710F3A1FD18EFB00CA4675 /* Icon-App-60x60@1x.png in Resources */,
@@ -380,15 +466,18 @@
 				53710F411FD18EFB00CA4675 /* Icon-App-76x76@3x.png in Resources */,
 				53710F341FD18EFB00CA4675 /* Icon-App-29x29@3x.png in Resources */,
 				53710F401FD18EFB00CA4675 /* Icon-App-76x76@2x.png in Resources */,
+				B176E94F1FD3F308007CED08 /* bestPartner.png in Resources */,
 				53710F471FD18EFB00CA4675 /* iTunesArtwork@2x.png in Resources */,
 				53710F441FD18EFB00CA4675 /* Icon-Small-50x50@2x.png in Resources */,
 				53FAE2031FC1A40E00CF0C6D /* Assets.xcassets in Resources */,
 				53710F431FD18EFB00CA4675 /* Icon-Small-50x50@1x.png in Resources */,
 				53710F2F1FD18EFB00CA4675 /* Icon-App-20x20@1x.png in Resources */,
 				53710F2E1FD18EFB00CA4675 /* Contents.json in Resources */,
+				B176E9361FD3D36D007CED08 /* RoomImage.jpg in Resources */,
 				53710F331FD18EFB00CA4675 /* Icon-App-29x29@2x.png in Resources */,
 				53710F421FD18EFB00CA4675 /* Icon-App-83.5x83.5@2x.png in Resources */,
 				53710F381FD18EFB00CA4675 /* Icon-App-57x57@1x.png in Resources */,
+				B176E9371FD3D36D007CED08 /* titleLOGO.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,7 +545,10 @@
 				53ABE1201FC97FE20055847E /* WishlistVC.m in Sources */,
 				53C346431FC825AF00D2EBF3 /* AddaroomVC.m in Sources */,
 				53ABE1261FC981210055847E /* FilterVC.m in Sources */,
+				B176E92F1FD3CED8007CED08 /* FindARoomCELL.m in Sources */,
 				53FAE21E1FC1A61100CF0C6D /* ChatscreenVC.m in Sources */,
+				B176E94B1FD3F2F8007CED08 /* QuickAvailbleCell.m in Sources */,
+				B176E9491FD3F2F8007CED08 /* HotLocationCell.m in Sources */,
 				53C346381FC7C2D100D2EBF3 /* RESideMenu.m in Sources */,
 				53FAE2141FC1A59600CF0C6D /* ProfileVC.m in Sources */,
 				53C346491FC825E100D2EBF3 /* FaqVC.m in Sources */,
@@ -465,11 +557,15 @@
 				53C3463B1FC7C2EE00D2EBF3 /* DEMORootViewController.m in Sources */,
 				53FAE2211FC1A63D00CF0C6D /* SettingsVC.m in Sources */,
 				53ABE1231FC980820055847E /* ChatVC.m in Sources */,
+				B176E9471FD3F2F8007CED08 /* ExploreTBLCell.m in Sources */,
 				53FAE21A1FC1A5D100CF0C6D /* ContactusVC.m in Sources */,
 				53FAE2091FC1A40E00CF0C6D /* main.m in Sources */,
 				53FAE1FB1FC1A40D00CF0C6D /* AppDelegate.m in Sources */,
 				53C346371FC7C2D100D2EBF3 /* UIViewController+RESideMenu.m in Sources */,
 				53C3463E1FC7C2FF00D2EBF3 /* DEMOLeftMenuViewController.m in Sources */,
+				B176E9331FD3CF30007CED08 /* FindRoomVC.m in Sources */,
+				B176E9451FD3F2F8007CED08 /* BestPartnerCell.m in Sources */,
+				B14AFC871FD27C6300A42FE6 /* TabbarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,6 +682,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = Yaaroz.pch;
 				INFOPLIST_FILE = Yaaroz/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -601,6 +698,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = Yaaroz.pch;
 				INFOPLIST_FILE = Yaaroz/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

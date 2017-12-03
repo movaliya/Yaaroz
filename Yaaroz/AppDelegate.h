@@ -7,12 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TabbarController.h"
 
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
-
+{
+    
+}
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic)  TabbarController *tabBarController;;
 
 
+-(void)OpenTabbar;
+-(void)HideTabbar:(BOOL)boolHighlight;
 @end
 

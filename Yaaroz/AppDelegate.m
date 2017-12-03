@@ -14,15 +14,73 @@
 @end
 
 @implementation AppDelegate
+@synthesize tabBarController;
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    
+    
   
-    //kaushik
-    // Override point for customization after application launch.
     return YES;
 }
+
+#pragma mark - TABBAR METHOD
+
+-(void)OpenTabbar
+{
+    tabBarController = [[UIStoryboard storyboardWithName:@"Main" bundle: nil] instantiateViewControllerWithIdentifier:@"TabbarController"];
+    self.window.rootViewController = tabBarController;
+  //  [self setImagesForTabBarItems];
+}
+
+-(void)setImagesForTabBarItems
+{
+    tabBarController = (TabbarController *) self.window.rootViewController;
+    
+    NSArray* imageNames = @[@"TABHome", @"TABStar",@"TABPlush",@"TABSearch", @"TABUser"];
+    NSArray* selectedImageNames = @[@"TABHomeSelect",@"TABStarSelect",@"TABPlushSelect",@"TABSearchSelect", @"TABUserSelect"];
+    [tabBarController.tabBar setBarTintColor:[UIColor whiteColor]];
+    
+    for (int i = 0; i <=4; i ++)
+    {
+        UIImage *img = [UIImage imageNamed:imageNames[i]];
+        UIImage *imgSel = [UIImage imageNamed:selectedImageNames[i]];
+        
+        img = [img imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+        imgSel = [imgSel imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+        
+        UITabBarItem* item = [tabBarController.tabBar.items objectAtIndex:i];
+        item.image = img;
+        item.selectedImage = imgSel;
+    }
+}
+
+- (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController
+{
+    
+}
+
+- (void)HideTabbar : (BOOL) boolHighlight
+{
+    if (boolHighlight)
+    {
+        UITabBarController *rootController = (UITabBarController *)[[[[UIApplication sharedApplication]delegate] window] rootViewController];
+        if ([rootController isKindOfClass:[UITabBarController class]])
+        {
+            [rootController.tabBar setHidden:YES];
+        }
+    }
+    else
+    {
+        UITabBarController *rootController = (UITabBarController *)[[[[UIApplication sharedApplication]delegate] window] rootViewController];
+        if ([rootController isKindOfClass:[UITabBarController class]])
+        {
+            [rootController.tabBar setHidden:NO];
+        }
+    }
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

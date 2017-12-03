@@ -26,8 +26,13 @@
 #import "RESideMenu.h"
 #import "UIViewController+RESideMenu.h"
 #import "RECommonFunctions.h"
+#import "InvitefriendVC.h"
+#import "Yaaroz.pch"
+#import "HomeVC.h"
+#import "InvitefriendVC.h"
 
-@interface RESideMenu ()
+
+@interface RESideMenu ()<UITabBarDelegate,UITabBarControllerDelegate>
 
 @property (strong, readwrite, nonatomic) UIImageView *backgroundImageView;
 @property (assign, readwrite, nonatomic) BOOL visible;
@@ -711,25 +716,77 @@
         self.backgroundImageView.image = backgroundImage;
 }
 
+- (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController
+{
+    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle: nil];
+    
+    if (tabBarController.selectedIndex==0)
+    {
+        if ([_contentViewController isKindOfClass:[UITabBarController class]])
+        {
+            UITabBarController *tabBarController = (UITabBarController *)_contentViewController;
+            tabBarController.delegate=self;
+            UINavigationController *navigationController = (UINavigationController *)tabBarController.selectedViewController;
+            
+            UIViewController *vc ;
+            NSArray *controllers;
+            
+            vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"HomeVC"];
+            controllers = [NSArray arrayWithObject:vc];
+            navigationController.viewControllers = controllers;
+            
+            /*
+             if ([viewController isKindOfClass:[UINavigationController class]])
+            {
+                [(UINavigationController *)viewController popToRootViewControllerAnimated:NO];
+            }
+            NSArray* tempVCA = [self.navigationController viewControllers];
+    
+            for(UIViewController *tempVC in tempVCA)
+            {
+                if([tempVC isKindOfClass:[urViewControllerClass class]])
+                {
+                    [tempVC removeFromParentViewController];
+                }
+            }*/
+
+        }
+    }
+}
+
 - (void)setContentViewController:(UIViewController *)contentViewController
 {
-    if (!_contentViewController) {
+    if (!_contentViewController)
+    {
         _contentViewController = contentViewController;
         return;
     }
-    [self hideViewController:_contentViewController];
-    _contentViewController = contentViewController;
+
     
-    [self addChildViewController:self.contentViewController];
-    self.contentViewController.view.frame = self.view.bounds;
-    [self.contentViewContainer addSubview:self.contentViewController.view];
-    [self.contentViewController didMoveToParentViewController:self];
     
-    [self updateContentViewShadow];
-    
-    if (self.visible) {
-        [self addContentViewControllerMotionEffects];
+    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle: nil];
+    if ([contentViewController isKindOfClass:[InvitefriendVC class]])
+    {
+        if ([_contentViewController isKindOfClass:[UITabBarController class]])
+        {
+            UITabBarController *tabBarController = (UITabBarController *)_contentViewController;
+            tabBarController.delegate=self;
+            UINavigationController *navigationController = (UINavigationController *)tabBarController.selectedViewController;
+            
+            UIViewController *vc ;
+            NSArray *controllers;
+            
+            vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"InvitefriendVC"];
+            controllers = [NSArray arrayWithObject:vc];
+            navigationController.viewControllers = controllers;
+            
+        }
     }
+    else
+    {
+        
+    }
+    
 }
 
 - (void)setLeftMenuViewController:(UIViewController *)leftMenuViewController

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="BestPartnerCell">
+            <rect key="frame" x="0.0" y="0.0" width="141" height="181"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="141" height="181"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bestPartner.png" translatesAutoresizingMaskIntoConstraints="NO" id="vlU-fo-rUw">
+                        <rect key="frame" x="0.0" y="0.0" width="141" height="145"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="145" id="dOu-la-0sU"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S5H-RG-adk">
+                        <rect key="frame" x="111" y="0.0" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="abR-ds-GAQ"/>
+                            <constraint firstAttribute="height" constant="30" id="pvj-8f-kJv"/>
+                        </constraints>
+                        <state key="normal" image="ic_wishlist"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Simmy" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4EG-Wl-Ad0">
+                        <rect key="frame" x="5" y="155.5" width="93" height="18"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vdp-RJ-xUJ">
+                        <rect key="frame" x="106" y="150" width="30" height="29"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="8OJ-Te-0LW"/>
+                            <constraint firstAttribute="height" constant="29" id="lsK-m6-fSl"/>
+                        </constraints>
+                        <state key="normal" image="ic_messages"/>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="vlU-fo-rUw" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="3Sw-1q-lB0"/>
+                <constraint firstItem="4EG-Wl-Ad0" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="8As-AH-1AO"/>
+                <constraint firstAttribute="trailing" secondItem="vlU-fo-rUw" secondAttribute="trailing" id="Exp-q3-Orq"/>
+                <constraint firstAttribute="trailing" secondItem="vdp-RJ-xUJ" secondAttribute="trailing" constant="5" id="LGH-HB-mFI"/>
+                <constraint firstItem="vdp-RJ-xUJ" firstAttribute="leading" secondItem="4EG-Wl-Ad0" secondAttribute="trailing" constant="8" id="MBR-H1-hhO"/>
+                <constraint firstAttribute="trailing" secondItem="S5H-RG-adk" secondAttribute="trailing" id="NYw-Hb-Ldy"/>
+                <constraint firstItem="4EG-Wl-Ad0" firstAttribute="centerY" secondItem="vdp-RJ-xUJ" secondAttribute="centerY" id="OYn-Zj-rf8"/>
+                <constraint firstItem="vdp-RJ-xUJ" firstAttribute="top" secondItem="vlU-fo-rUw" secondAttribute="bottom" constant="5" id="ShQ-eh-aql"/>
+                <constraint firstItem="vlU-fo-rUw" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="i7n-gt-br4"/>
+                <constraint firstItem="S5H-RG-adk" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="qXX-JF-HOu"/>
+            </constraints>
+            <size key="customSize" width="141" height="181"/>
+            <point key="canvasLocation" x="-246.5" y="-33.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="bestPartner.png" width="1099" height="1143"/>
+        <image name="ic_messages" width="26" height="25"/>
+        <image name="ic_wishlist" width="26" height="25"/>
+    </resources>
+</document>
