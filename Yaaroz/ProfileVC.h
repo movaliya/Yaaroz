@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ProfileVC : UIViewController
+@property (weak, nonatomic) IBOutlet UIImageView *profilePict;
+@property (weak, nonatomic) IBOutlet UIImageView *male_image;
+@property (weak, nonatomic) IBOutlet UIImageView *female_image;
 
 @end

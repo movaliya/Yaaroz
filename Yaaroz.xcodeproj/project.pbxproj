@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		533716671FD44FFE008B712D /* ProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 533716661FD44FFE008B712D /* ProfileVC.m */; };
 		53710F0F1FD1475200CA4675 /* profilePictDemo.png in Resources */ = {isa = PBXBuildFile; fileRef = 53710F0E1FD1475200CA4675 /* profilePictDemo.png */; };
 		53710F2E1FD18EFB00CA4675 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 53710F121FD18EFB00CA4675 /* Contents.json */; };
 		53710F2F1FD18EFB00CA4675 /* Icon-App-20x20@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53710F131FD18EFB00CA4675 /* Icon-App-20x20@1x.png */; };
@@ -52,7 +53,6 @@
 		53FAE2031FC1A40E00CF0C6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53FAE2021FC1A40E00CF0C6D /* Assets.xcassets */; };
 		53FAE2091FC1A40E00CF0C6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FAE2081FC1A40E00CF0C6D /* main.m */; };
 		53FAE2111FC1A56600CF0C6D /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FAE2101FC1A56600CF0C6D /* HomeVC.m */; };
-		53FAE2141FC1A59600CF0C6D /* ProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FAE2131FC1A59600CF0C6D /* ProfileVC.m */; };
 		53FAE2171FC1A5B400CF0C6D /* InvitefriendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FAE2161FC1A5B400CF0C6D /* InvitefriendVC.m */; };
 		53FAE21A1FC1A5D100CF0C6D /* ContactusVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FAE2191FC1A5D100CF0C6D /* ContactusVC.m */; };
 		53FAE21E1FC1A61100CF0C6D /* ChatscreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FAE21D1FC1A61100CF0C6D /* ChatscreenVC.m */; };
@@ -79,6 +79,8 @@
 /* Begin PBXFileReference section */
 		3C87831C5389DD5D1B52D56A /* Pods-Yaaroz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yaaroz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yaaroz/Pods-Yaaroz.debug.xcconfig"; sourceTree = "<group>"; };
 		507980E85A71BF5988452C40 /* libPods-Yaaroz.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Yaaroz.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		533716651FD44FFE008B712D /* ProfileVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileVC.h; sourceTree = "<group>"; };
+		533716661FD44FFE008B712D /* ProfileVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileVC.m; sourceTree = "<group>"; };
 		53710F0E1FD1475200CA4675 /* profilePictDemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profilePictDemo.png; sourceTree = "<group>"; };
 		53710F121FD18EFB00CA4675 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		53710F131FD18EFB00CA4675 /* Icon-App-20x20@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@1x.png"; sourceTree = "<group>"; };
@@ -142,8 +144,6 @@
 		53FAE2081FC1A40E00CF0C6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		53FAE20F1FC1A56600CF0C6D /* HomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
 		53FAE2101FC1A56600CF0C6D /* HomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
-		53FAE2121FC1A59600CF0C6D /* ProfileVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileVC.h; sourceTree = "<group>"; };
-		53FAE2131FC1A59600CF0C6D /* ProfileVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileVC.m; sourceTree = "<group>"; };
 		53FAE2151FC1A5B400CF0C6D /* InvitefriendVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InvitefriendVC.h; sourceTree = "<group>"; };
 		53FAE2161FC1A5B400CF0C6D /* InvitefriendVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InvitefriendVC.m; sourceTree = "<group>"; };
 		53FAE2181FC1A5D100CF0C6D /* ContactusVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactusVC.h; sourceTree = "<group>"; };
@@ -298,8 +298,8 @@
 				53FAE2081FC1A40E00CF0C6D /* main.m */,
 				53FAE20F1FC1A56600CF0C6D /* HomeVC.h */,
 				53FAE2101FC1A56600CF0C6D /* HomeVC.m */,
-				53FAE2121FC1A59600CF0C6D /* ProfileVC.h */,
-				53FAE2131FC1A59600CF0C6D /* ProfileVC.m */,
+				533716651FD44FFE008B712D /* ProfileVC.h */,
+				533716661FD44FFE008B712D /* ProfileVC.m */,
 				53FAE2151FC1A5B400CF0C6D /* InvitefriendVC.h */,
 				53FAE2161FC1A5B400CF0C6D /* InvitefriendVC.m */,
 				53FAE2181FC1A5D100CF0C6D /* ContactusVC.h */,
@@ -550,7 +550,6 @@
 				B176E94B1FD3F2F8007CED08 /* QuickAvailbleCell.m in Sources */,
 				B176E9491FD3F2F8007CED08 /* HotLocationCell.m in Sources */,
 				53C346381FC7C2D100D2EBF3 /* RESideMenu.m in Sources */,
-				53FAE2141FC1A59600CF0C6D /* ProfileVC.m in Sources */,
 				53C346491FC825E100D2EBF3 /* FaqVC.m in Sources */,
 				53FAE2111FC1A56600CF0C6D /* HomeVC.m in Sources */,
 				53C346461FC825CB00D2EBF3 /* MessagesVC.m in Sources */,
@@ -562,6 +561,7 @@
 				53FAE2091FC1A40E00CF0C6D /* main.m in Sources */,
 				53FAE1FB1FC1A40D00CF0C6D /* AppDelegate.m in Sources */,
 				53C346371FC7C2D100D2EBF3 /* UIViewController+RESideMenu.m in Sources */,
+				533716671FD44FFE008B712D /* ProfileVC.m in Sources */,
 				53C3463E1FC7C2FF00D2EBF3 /* DEMOLeftMenuViewController.m in Sources */,
 				B176E9331FD3CF30007CED08 /* FindRoomVC.m in Sources */,
 				B176E9451FD3F2F8007CED08 /* BestPartnerCell.m in Sources */,

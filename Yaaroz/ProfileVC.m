@@ -13,10 +13,29 @@
 @end
 
 @implementation ProfileVC
+@synthesize male_image,female_image,profilePict;
 
-- (void)viewDidLoad {
+
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    profilePict.layer.cornerRadius = profilePict.frame.size.width / 2;
+    profilePict.clipsToBounds = YES;
+    
+    
+}
+- (IBAction)maleRadioBtn_Action:(id)sender
+{
+    male_image.image=[UIImage imageNamed:@"ic_redio_selected"];
+    female_image.image=[UIImage imageNamed:@"RadioButton"];
+}
+- (IBAction)femaleRadioBtn_Action:(id)sender
+{
+    male_image.image=[UIImage imageNamed:@"RadioButton"];
+    female_image.image=[UIImage imageNamed:@"ic_redio_selected"];
+   
+}
+- (IBAction)sumitBtn_Action:(id)sender {
 }
 
 - (void)didReceiveMemoryWarning {
