@@ -22,6 +22,11 @@
 
 @implementation HomeVC
 @synthesize Explore_BTN,ExploreLine_LBL,FindaRoom_BTN,FindRoomLine_LBL,MainTBL;
+-(UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
+}
+
 
 - (void)viewDidLoad
 {

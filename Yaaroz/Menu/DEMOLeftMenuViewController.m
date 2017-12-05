@@ -66,23 +66,27 @@
             [self.sideMenuViewController hideMenuViewController];
             break;
         case 1:
-            [self.sideMenuViewController setContentViewController:[[UINavigationController alloc] initWithRootViewController:[self.storyboard instantiateViewControllerWithIdentifier:@"AddaroomVC"]]
-                                                         animated:YES];
+            [self.sideMenuViewController setContentViewController:[[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"AddaroomVC"]];
             [self.sideMenuViewController hideMenuViewController];
+            
             break;
         case 2:
-            [self.sideMenuViewController setContentViewController:[[UINavigationController alloc] initWithRootViewController:[self.storyboard instantiateViewControllerWithIdentifier:@"MessagesVC"]]
-                                                         animated:YES];
+            [self.sideMenuViewController setContentViewController:[[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"MessagesVC"]];
             [self.sideMenuViewController hideMenuViewController];
+            
+           
             break;
         case 3:
-            [self.sideMenuViewController setContentViewController:[[UINavigationController alloc] initWithRootViewController:[self.storyboard instantiateViewControllerWithIdentifier:@"FaqVC"]]
-                                                         animated:YES];
+            [self.sideMenuViewController setContentViewController:[[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"FaqVC"]];
             [self.sideMenuViewController hideMenuViewController];
+            
+           
             break;
         case 4:
+            
             [self.sideMenuViewController setContentViewController:[[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"InvitefriendVC"]];
             [self.sideMenuViewController hideMenuViewController];
+            
             break;
         default:
             break;

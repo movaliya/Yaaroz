@@ -13,6 +13,11 @@
 @end
 
 @implementation InvitefriendVC
+-(UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
+}
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];

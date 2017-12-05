@@ -13,7 +13,14 @@
 @end
 
 @implementation SettingsVC
+
 @synthesize everyone_imge,onlyMutual_Image,cutomradio_Image,allMatch_Image,OnlyMatch_Image;
+-(UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationController.navigationBar.hidden=YES;

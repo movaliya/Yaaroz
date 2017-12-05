@@ -31,7 +31,9 @@
 #import "HomeVC.h"
 #import "InvitefriendVC.h"
 #import "ProfileVC.h"
-
+#import "AddaroomVC.h"
+#import "MessagesVC.h"
+#import "FaqVC.h"
 
 @interface RESideMenu ()<UITabBarDelegate,UITabBarControllerDelegate>
 
@@ -753,6 +755,27 @@
 
         }
     }
+   else if (tabBarController.selectedIndex==1)
+    {
+        if ([_contentViewController isKindOfClass:[UITabBarController class]])
+        {
+            UITabBarController *tabBarController = (UITabBarController *)_contentViewController;
+            tabBarController.delegate=self;
+            UINavigationController *navigationController = (UINavigationController *)tabBarController.selectedViewController;
+            
+            UIViewController *vc ;
+            NSArray *controllers;
+            
+            vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"MatchesVC"];
+            controllers = [NSArray arrayWithObject:vc];
+            navigationController.viewControllers = controllers;
+            
+        }
+    }
+    else
+    {
+        
+    }
 }
 
 - (void)setContentViewController:(UIViewController *)contentViewController
@@ -793,6 +816,57 @@
             NSArray *controllers;
             
             vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"InvitefriendVC"];
+            controllers = [NSArray arrayWithObject:vc];
+            navigationController.viewControllers = controllers;
+            
+        }
+    }
+    else if ([contentViewController isKindOfClass:[AddaroomVC class]])
+    {
+        if ([_contentViewController isKindOfClass:[UITabBarController class]])
+        {
+            UITabBarController *tabBarController = (UITabBarController *)_contentViewController;
+            tabBarController.delegate=self;
+            UINavigationController *navigationController = (UINavigationController *)tabBarController.selectedViewController;
+            
+            UIViewController *vc ;
+            NSArray *controllers;
+            
+            vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"AddaroomVC"];
+            controllers = [NSArray arrayWithObject:vc];
+            navigationController.viewControllers = controllers;
+            
+        }
+    }
+    else if ([contentViewController isKindOfClass:[MessagesVC class]])
+    {
+        if ([_contentViewController isKindOfClass:[UITabBarController class]])
+        {
+            UITabBarController *tabBarController = (UITabBarController *)_contentViewController;
+            tabBarController.delegate=self;
+            UINavigationController *navigationController = (UINavigationController *)tabBarController.selectedViewController;
+            
+            UIViewController *vc ;
+            NSArray *controllers;
+            
+            vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"MessagesVC"];
+            controllers = [NSArray arrayWithObject:vc];
+            navigationController.viewControllers = controllers;
+            
+        }
+    }
+    else if ([contentViewController isKindOfClass:[FaqVC class]])
+    {
+        if ([_contentViewController isKindOfClass:[UITabBarController class]])
+        {
+            UITabBarController *tabBarController = (UITabBarController *)_contentViewController;
+            tabBarController.delegate=self;
+            UINavigationController *navigationController = (UINavigationController *)tabBarController.selectedViewController;
+            
+            UIViewController *vc ;
+            NSArray *controllers;
+            
+            vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"FaqVC"];
             controllers = [NSArray arrayWithObject:vc];
             navigationController.viewControllers = controllers;
             

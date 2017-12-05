@@ -13,6 +13,12 @@
 @end
 
 @implementation FilterVC
+-(UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
+}
+
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];

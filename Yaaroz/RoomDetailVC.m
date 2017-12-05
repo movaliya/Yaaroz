@@ -1,45 +1,49 @@
 //
-//  ProfileVC.m
+//  RoomDetailVC.m
 //  Yaaroz
 //
-//  Created by MaulikVaishali on 19/11/17.
+//  Created by Mango SW on 05/12/2017.
 //  Copyright © 2017 Vaishali Patel. All rights reserved.
 //
 
-#import "ProfileVC.h"
+#import "RoomDetailVC.h"
 
-@interface ProfileVC ()
+
+@interface RoomDetailVC ()<MKMapViewDelegate>
 
 @end
 
-@implementation ProfileVC
-@synthesize male_image,female_image,profilePict;
+@implementation RoomDetailVC
+@synthesize profilePict;
+
 -(UIStatusBarStyle)preferredStatusBarStyle
 {
     return UIStatusBarStyleLightContent;
 }
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
+    
     profilePict.layer.cornerRadius = profilePict.frame.size.width / 2;
     profilePict.clipsToBounds = YES;
-    
-    
+    self.googlemap.delegate = self;
+
 }
-- (IBAction)maleRadioBtn_Action:(id)sender
+- (void)mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)userLocation
 {
-    male_image.image=[UIImage imageNamed:@"ic_redio_selected"];
-    female_image.image=[UIImage imageNamed:@"RadioButton"];
+    MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(userLocation.coordinate, 800, 800);
+    [self.googlemap setRegion:[self.googlemap regionThatFits:region] animated:YES];
+    
+    // Add an annotation
+    MKPointAnnotation *point = [[MKPointAnnotation alloc] init];
+    point.coordinate = userLocation.coordinate;
+    point.title = @"Where am I?";
+    point.subtitle = @"I'm here!!!";
+    
+    [self.googlemap addAnnotation:point];
+
 }
-- (IBAction)femaleRadioBtn_Action:(id)sender
-{
-    male_image.image=[UIImage imageNamed:@"RadioButton"];
-    female_image.image=[UIImage imageNamed:@"ic_redio_selected"];
-   
-}
-- (IBAction)sumitBtn_Action:(id)sender {
-}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

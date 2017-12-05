@@ -14,6 +14,13 @@
 
 @implementation FindRoomVC
 @synthesize TableVW;
+-(UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
+}
+
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     UINib *nib = [UINib nibWithNibName:@"FindARoomCELL" bundle:nil];

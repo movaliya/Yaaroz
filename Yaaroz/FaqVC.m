@@ -13,6 +13,11 @@
 @end
 
 @implementation FaqVC
+-(UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
+}
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
