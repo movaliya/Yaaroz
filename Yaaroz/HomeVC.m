@@ -12,7 +12,7 @@
 #import "ExploreTBLCell.h"
 #import "HotLocationCell.h"
 #import "QuickAvailbleCell.h"
-
+#import "RoomDetailVC.h"
 @interface HomeVC ()<UICollectionViewDelegate,UICollectionViewDataSource>
 {
     NSString *TabStr;
@@ -198,6 +198,14 @@
     UIView *headerView = [[UIView alloc] init];
     headerView.backgroundColor = [UIColor clearColor];
     return headerView;
+}
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if ([TabStr isEqualToString:@"Find A Room"])
+    {
+        RoomDetailVC *vcr = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"RoomDetailVC"];
+        [self.navigationController pushViewController:vcr animated:YES];
+    }
 }
 
 

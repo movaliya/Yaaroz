@@ -7,9 +7,15 @@
 //
 
 #import "ProfileVC.h"
+#import "ASValueTrackingSlider.h"
 
-@interface ProfileVC ()
 
+
+@interface ProfileVC ()<ASValueTrackingSliderDataSource>
+{
+    
+}
+@property (weak, nonatomic) IBOutlet ASValueTrackingSlider *slider1;
 @end
 
 @implementation ProfileVC
@@ -22,6 +28,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    // customize slider 1
+    self.slider1.maximumValue = 100.0;
+    self.slider1.popUpViewCornerRadius = 0.0;
+    [self.slider1 setMaxFractionDigitsDisplayed:0];
+    self.slider1.popUpViewColor = [UIColor colorWithHue:0.55 saturation:0.8 brightness:0.9 alpha:0.7];
+    self.slider1.font = [UIFont fontWithName:@"GillSans-Bold" size:22];
+    self.slider1.textColor = [UIColor colorWithHue:0.55 saturation:1.0 brightness:0.5 alpha:1];
+    self.slider1.popUpViewWidthPaddingFactor = 1.0;
+    
+    
     profilePict.layer.cornerRadius = profilePict.frame.size.width / 2;
     profilePict.clipsToBounds = YES;
     
